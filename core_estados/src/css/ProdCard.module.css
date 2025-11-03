@@ -1,0 +1,58 @@
+.titulo {
+    flex: 1;
+    font-size: 2.5rem;
+    color: #000279;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+.areaProductos {
+    margin-top: 5%;
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tarjetaProducto {
+    width: 18%;
+    height: 20%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.botonComprar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+    font-size: 1rem;
+}
+
+.botonActivo {
+    background-color: #007bff;
+}
+
+.botonDeshabilitado {
+    background-color: #9e9e9e;
+}
+
+.stockOk {
+    color: green;
+    font-weight: bold;
+}
+
+.stockAgotado {
+    color: red;
+    font-weight: bold;
+}
