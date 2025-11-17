@@ -1,0 +1,6 @@
+.notaCard{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 8px; 
+    margin-bottom: 8px;
+}
