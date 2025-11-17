@@ -10,7 +10,7 @@
 | Core 6 | core_estados  | 🟢 |
 | Core 7 | core_formularios  | 🟢 |
 | Core 8 | core_aplicacion_de_notas  | 🟢 |
-| Core 9 | core_api_con_axios_e_imagenes  | 🔴 |
+| Core 9 | core_api_con_axios_e_imagenes  | 🟢 |
 | Core 10 | core_ruteo | 🔴 |
 
 ---
