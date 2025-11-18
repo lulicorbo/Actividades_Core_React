@@ -1,0 +1,77 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.inicio-contenedor {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.titulo-home {
+  font-size: 36px;
+  color: #66af55;
+  margin-bottom: 30px;
+}
+
+.lista-obras {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-obras li {
+  margin: 10px 0;
+}
+
+.link-obra {
+  font-size: 20px;
+  color: #66af55;
+  text-decoration: none;
+}
+
+.link-obra:hover {
+  text-decoration: underline;
+}
+
+.obra-contenedor {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.titulo-obra {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.obra-imagen {
+  width: 60%;              
+  max-width: 800px;       
+  height: 500px;           
+  object-fit: contain;     
+  border-radius: 20px;
+  background-color: #fff; 
+  padding: 10px;          
+  margin-bottom: 30px;
+}
+
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background-color: #66af55;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+}
+
